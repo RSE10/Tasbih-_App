@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "888500398700",
+    "firebase_url": "https://tasbeeh-5287b-default-rtdb.firebaseio.com",
+    "project_id": "tasbeeh-5287b",
+    "storage_bucket": "tasbeeh-5287b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888500398700:android:8815eed3ab75d140e44649",
+        "android_client_info": {
+          "package_name": "com.example.tasbih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888500398700-mjg2th627l2dfde2tr95k3n7mvpbpohd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBakek0YnTLXW5AdQGzxssVnBa4_niL0ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888500398700-mjg2th627l2dfde2tr95k3n7mvpbpohd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

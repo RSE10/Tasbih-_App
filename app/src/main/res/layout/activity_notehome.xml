@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Notehome">
+    <LinearLayout
+        android:id="@+id/backbuttonsupport"
+        android:layout_width="match_parent"
+        android:background="@color/colorText"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/backfromNote"
+            android:layout_margin="5dp"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:background="@color/yellowShadowDark"
+            android:padding="2dp"
+            android:clickable="true"
+            android:src="@drawable/back_button"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Note's"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/backbuttonsupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleviewnote"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_note_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorText"
+        android:backgroundTint="@color/colorText"
+        android:backgroundTintMode="add"
+        app:fabSize="normal"
+        android:layout_margin="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
+</RelativeLayout>
